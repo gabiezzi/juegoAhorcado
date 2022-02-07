@@ -43,17 +43,17 @@ public class ServicioAhorcado {
 
         nuevoJuego.setCantLetras(palabra.length());
         
-        String[] buscar = new String[nuevoJuego.getCantLetras()];
+        String[] buscarLetra = new String[nuevoJuego.getCantLetras()];
 
         for (int i = 0; i < palabra.length(); i++) {
 
             
            
-         buscar[i] = palabra.substring(i, i+1);
+         buscarLetra[i] = palabra.substring(i, i+1);
 
         }
 
-        nuevoJuego.setBuscar(buscar);
+        nuevoJuego.setBuscar(buscarLetra);
 
         System.out.println("Ingrese la cant de jugadas");
         nuevoJuego.setJugadasMax(leer.nextInt());
