@@ -18,6 +18,8 @@ public class Ahorcado {
     private int letrasEncontradas;
     
     private int jugadasMax;
+    
+    private String a = "";
 
     public Ahorcado() {
         this.letrasEncontradas = 0;
